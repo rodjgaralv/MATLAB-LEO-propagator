@@ -26,24 +26,32 @@ Made as a complement to my Bachelor's Thesis: Influence of the Exponential and N
 	- T(s) is the runtime
 
 + Constants used: WGS84 & EGM2008 as recomended by the National Geospatial-Intelligence Agency (NGA)
+
+
 ---- VALIDATION ----
+
 This propagator was validated against GMAT simulations after 24 hours. The same initial conditions were introduced. For reference, the own GMAT validation against STK was used as to compare whether the differences were in order or not, they were.
 Next, I will add the different graphics obtained from the validation process.
 
 - Keplerian Propagation (No perturbations included):
 <img width="995" height="566" alt="image" src="https://github.com/user-attachments/assets/7c5e9872-fed0-4864-b466-99eaec433ee5" />
 
+
 - Perturbated Propagation (J2 included):
 <img width="858" height="541" alt="image" src="https://github.com/user-attachments/assets/809ef3c7-fafb-4b3b-8e8a-f00f282dbfbc" />
+
  
 - Perturbated Propagation (Exponential Model included):
 <img width="942" height="563" alt="image" src="https://github.com/user-attachments/assets/f761d90d-8e36-4e42-a29c-5dc6218eff38" />
 
+
 - Exponential Model. Density Relative Differences:
 <img width="852" height="566" alt="image" src="https://github.com/user-attachments/assets/49ba7e38-539d-4a24-80f0-dbe77f0bd364" />
 
+
 - Perturbated Propagation (NRLMSISE-00 Model included):
 <img width="917" height="566" alt="image" src="https://github.com/user-attachments/assets/070e341e-fa75-4a6c-b03d-2ee5a3cf4ec3" />
+
 
 - NRLMSISE-00 Model. Density Relative Differences:
 <img width="726" height="483" alt="image" src="https://github.com/user-attachments/assets/758e28aa-9d9d-416e-92a3-bcaf35ce0ab2" />
