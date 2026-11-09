@@ -20,7 +20,7 @@ Made as a complement to my Bachelor's Thesis: Influence of the Exponential and N
 
 	- If needed, one is attached.
 
-+ If selected the option to save the results, they will be in the OUTPUT folder.
++ If selected the option to save the results. Firstly, it is needed to create a folder named OUTPUT (sorry, I was not able to add it to the repository), all the saves will be here.
 	- Save format will be the following (for each colum):
 		[T(s), X(km), Y(km), Z(km), VX(km/s), VY(km/s), VZ(km/s), DENSITY(kg/m^3)]
 	- T(s) is the runtime
